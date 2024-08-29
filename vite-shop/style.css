@@ -1,0 +1,13 @@
+
+@import url("./node_modules/sweetalert2/dist/sweetalert2.min.css");
+
+@import url("./node_modules/animate.css/animate.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cat-btn.active{
+    @apply bg-zinc-400 text-white
+}
